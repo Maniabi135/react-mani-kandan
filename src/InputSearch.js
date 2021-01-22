@@ -14,7 +14,7 @@ const InputSearch = props => {
         placeholder="Search by name"
         name="inputSearch"
         onChange={e => changeInput(e)}
-        defaultValue={text}
+        value={text}
       />
       <button type="button" onClick={filterCbk}>
         Search
